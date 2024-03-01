@@ -193,6 +193,7 @@ a.featured-tour:hover
 {
 	width: 1000px;
 	margin: 0 auto;
+	padding-left: 10px;
 }
 
 #header
@@ -376,7 +377,7 @@ a.featured-tour:hover
 
 #footer
 {
-	
+	text-align: center;
 }
 
 
