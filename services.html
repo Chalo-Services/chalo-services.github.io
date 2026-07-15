@@ -1,160 +1,193 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<!-- Loading Stylesheets -->
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="css/tipTip.css" rel="stylesheet" type="text/css" />
-
-<!-- Loading JavaScript Files -->
-<script type="text/javascript" src="js/cufon-yui.js"></script>
-<script type="text/javascript" src="js/droid_400-droid_700-droid_italic_400-droid_italic_700.font.js"></script>
-<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="js/jquery.tipTip.minified.js"></script>
-
-<!-- Custom JS functions -->
-    <!-- Cufon for Font Replacement -->
-    <script type="text/javascript">
-                Cufon.replace('h1')('h2')('h3')('h4')('h5');
-    </script>
-    
-    <!-- jQuery Tooltip for top small navigation -->
-    <script type="text/javascript">
-    $(document).ready(function(){
-        $(".tipClass").tipTip();
-    });
-    </script>
-
-<title>Services - Chalo Services LLC</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Services — Chalo Services LLC</title>
+<meta name="description" content="Custom software development, UX/UI &amp; web design, mobile apps, SEO, and rental &amp; maintenance services from Chalo Services LLC — a product company that ships." />
+<link rel="canonical" href="https://www.chaloservices.com/services.html" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<meta property="og:title" content="Services — Chalo Services LLC" />
+<meta property="og:description" content="Custom software, web & mobile apps, UX/UI design, SEO, and rental & maintenance services." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
 </head>
-
 <body>
 
-<div id="wrapper">
-	<div id="small-nav"> 
-    	<ul>
-            <li><a href="#" class="tipClass" title="Home"><img src="images/home-small.gif" alt="home" /></a></li>
-            <li><a href="#" class="tipClass" title="Mail"><img src="images/mail-small.gif" alt="mail" /></a></li>
-            <li><a href="#" class="tipClass" title="SiteMap"><img src="images/sitemap-small.gif" alt="sitemap" /></a></li>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Chalo Services home">
+      <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+        <defs><linearGradient id="cg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#4338ca"/></linearGradient></defs>
+        <rect width="40" height="40" rx="11"/>
+        <path d="M28 14.5a9 9 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/>
+        <circle cx="28" cy="20" r="2.7" fill="#fbbf24"/>
+      </svg>
+      Chalo Services
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="products.html">Platforms</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn btn--primary nav__cta in-menu">Get in touch</a>
+    </nav>
+    <a href="contact.html" class="btn btn--primary nav__cta">Get in touch</a>
+    <button class="nav__toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="crumb"><a href="index.html">Home</a> / Services</p>
+    <h1>Services that take you from idea to launch</h1>
+    <p>We build software the same way we run our own platforms — reliably, at a fair price, and with support that doesn't disappear after go-live.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">What we do</span>
+      <h2>Comprehensive services for individuals &amp; businesses</h2>
+      <p>From a first prototype to production and maintenance, our experienced team covers the full lifecycle across many industries.</p>
+    </div>
+    <div class="grid-3">
+
+      <div class="fcard reveal">
+        <div class="fcard__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></svg></div>
+        <h3>Website &amp; desktop apps</h3>
+        <p>Custom web and desktop applications built on a modern, maintainable stack — from internal tools to customer-facing products.</p>
+      </div>
+
+      <div class="fcard reveal">
+        <div class="fcard__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
+        <h3>Mobile app development</h3>
+        <p>Native and cross-platform mobile apps for iOS and Android, designed to feel fast and native on every device.</p>
+      </div>
+
+      <div class="fcard reveal">
+        <div class="fcard__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="13" cy="8" r="6"/><path d="m2 22 6-6"/></svg></div>
+        <h3>UX/UI &amp; web design</h3>
+        <p>Clean, conversion-focused interfaces and brand-consistent design systems that make your product effortless to use.</p>
+      </div>
+
+      <div class="fcard reveal">
+        <div class="fcard__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg></div>
+        <h3>Search engine optimization</h3>
+        <p>Technical SEO, content structure, and performance work that help you get found and turn visitors into customers.</p>
+      </div>
+
+      <div class="fcard reveal">
+        <div class="fcard__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9 12 2l9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg></div>
+        <h3>Rental services</h3>
+        <p>Rental and equipment solutions tailored to your operation, with the systems to manage them end to end.</p>
+      </div>
+
+      <div class="fcard reveal">
+        <div class="fcard__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+        <h3>Maintenance &amp; support</h3>
+        <p>Ongoing maintenance, monitoring, and support to keep everything we build running smoothly long after launch.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Industries -->
+<section class="section section--tint">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Industries we serve</span>
+      <h2>Experience across many verticals</h2>
+      <p>We help customers develop their projects at reasonable cost and the highest quality, drawing on skilled resources across a range of domains.</p>
+    </div>
+    <div class="pills reveal">
+      <span class="pill">Retail</span>
+      <span class="pill">Real estate</span>
+      <span class="pill">Construction</span>
+      <span class="pill">Automotive</span>
+      <span class="pill">Shipping &amp; logistics</span>
+      <span class="pill">Financial services</span>
+      <span class="pill">Technology</span>
+    </div>
+  </div>
+</section>
+
+<!-- Process -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">How we work</span>
+      <h2>A simple, transparent process</h2>
+      <p>No surprises — just clear steps from first conversation to a product that's live and looked after.</p>
+    </div>
+    <div class="grid-2" style="gap:26px">
+      <div class="fcard reveal"><div class="fcard__ic"><b style="color:var(--primary);font-size:1.2rem">1</b></div><h3>Discover</h3><p>We learn your goals, constraints, and users, then agree on scope and a realistic plan.</p></div>
+      <div class="fcard reveal"><div class="fcard__ic"><b style="color:var(--primary);font-size:1.2rem">2</b></div><h3>Design</h3><p>We shape the experience and architecture, so you can see where things are heading early.</p></div>
+      <div class="fcard reveal"><div class="fcard__ic"><b style="color:var(--primary);font-size:1.2rem">3</b></div><h3>Build</h3><p>We ship in iterations with regular check-ins — working software, not status decks.</p></div>
+      <div class="fcard reveal"><div class="fcard__ic"><b style="color:var(--primary);font-size:1.2rem">4</b></div><h3>Support</h3><p>We launch, monitor, and maintain — keeping your systems healthy over the long term.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--ink cta-band">
+  <div class="container">
+    <h2 class="reveal">Have a project in mind?</h2>
+    <p class="reveal">Tell us what you're building. We'll come back with a clear, honest view of how we can help.</p>
+    <div class="hero__actions reveal">
+      <a href="contact.html" class="btn btn--on-ink">Start a project</a>
+      <a href="products.html" class="btn btn--ghost-ink">See our platforms</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a class="brand" href="index.html">
+          <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="11"/><path d="M28 14.5a9 9 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/><circle cx="28" cy="20" r="2.7" fill="#fbbf24"/></svg>
+          Chalo Services
+        </a>
+        <p>A technology company building and operating cloud products used by businesses worldwide — plus custom software and digital services.</p>
+      </div>
+      <div class="footer__col">
+        <h5>Platforms</h5>
+        <ul>
+          <li><a href="https://smtps.io" target="_blank" rel="noopener">smtps.io — Email delivery</a></li>
+          <li><a href="https://5ymail.com" target="_blank" rel="noopener">5ymail.com — Anonymous email</a></li>
+          <li><a href="https://ihosting.us" target="_blank" rel="noopener">iHosting.us — Hosting</a></li>
         </ul>
-    </div>
-    
-    <div id="header">
-    
-    	<a href="index.html"><span id="logo"></span></a> 
-        
-        <div id="navigation"> 
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li class="current"><a href="services.html" class="current">Services</a></li>
-                 <li><a href="work.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </div>
-        
-    </div> 
-    
-    <div class="clear-both"></div>
-    <hr />
-    
-    
-    <div id="intro-content" class="clear-both"> 
-    		<h1>our services</h1> 
-	</div>
-    
-    <div class="clear-both"></div>
-    <hr />
-    
-   
-    <div id="inner-left-block"> 
-        <h3>Services We Offer</h3>
-        <p>
-		Chalo Services offers comprehensive services ranging from software development to rental services and maintenance for a variety of verticals - including retail, real estate, construction, automotive, shipping, financial services and technology...
-		</p>
-        
-        <ul id="services-list-large">
-
-            <li>
-                <div class="service first"></div>	
-                <h4>Lorem ipsum dolor sit amet, consectetur.</h4>
-                <p>Curabitur gravida, metus quis semper auctor, metus neque ornare risus, nec tincidunt libero diam id est. Nulla lobortis ante vel lorem venenatis venenatis.</p>
-            </li>
-            
-            <li>
-                <div class="service second"></div>
-                <h4>Sit amet, consectetur adipiscing elit</h4>
-                <p>Curabitur tellus lacus, lacinia ac malesuada nec, consectetur sed ante. Aliquam commodo augue ac ante sodales eleifend. Aenean fringilla egestas justo nec pellentesque. Integer malesuada sollicitudin quam.</p>
-            </li>
-            
-            <li>
-                <div class="service third"></div>
-                <h4>Lorem ipsum dolor sit amet, consectetur.</h4>
-                <p>Curabitur tellus lacus, lacinia ac malesuada nec, consectetur sed ante. Aliquam commodo augue ac ante sodales eleifend. Aenean fringilla egestas justo nec pellentesque. Integer malesuada sollicitudin quam.</p>
-            </li>
-            
-            <li>
-                <div class="service fourth"></div>
-                <h4>Sit amet, consectetur adipiscing elit</h4>
-                <p>Curabitur tellus lacus, lacinia ac malesuada nec, consectetur sed ante. Aliquam commodo augue ac ante sodales eleifend. Aenean fringilla egestas justo nec pellentesque. Integer malesuada sollicitudin quam.</p>
-            </li>
-            
-            <li>
-                <div class="service fifth"></div>
-                <h4>Lorem ipsum dolor sit amet, consectetur.</h4>
-                <p>Curabitur tellus lacus, lacinia ac malesuada nec, consectetur sed ante. Aliquam commodo augue ac ante sodales eleifend. Aenean fringilla egestas justo nec pellentesque. Integer malesuada sollicitudin quam.</p>
-            </li>
-        
+      </div>
+      <div class="footer__col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="products.html">Platforms</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-
-    </div>
-   
-    
-    <div id="inner-right-block">
-    	
-       <h3>Sidebar Navigation</h3>
-        <ul class="sidebar-navigation-list">
-			<ul>
-            	<li><a href="#">Rental Services</a></li>
-				<li><a href="#">UX/UI Website Design</a></li>
-				<li><a href="#">Website/Desktop Application Development</a></li>
-				<li><a href="#">Mobile Application Development</a></li>
-				<li><a href="#">Search Engine Optimization</a></li>
-            </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:+14088062938">+1 408 806 2938</a></li>
+          <li><a href="mailto:info@chaloservices.com">info@chaloservices.com</a></li>
         </ul>
-        
-        <div style="margin-top: 30px;">
-            <h3>Get in Touch</h3>
-			<h6>Don't hestitate to contact us</h6>
-            <p>For any inquery or question, please contact us below.</p>
-            <ul>
-                <li class="phone-list"><b>+1 408 806 2938</b></li>
-                <li class="mail-list"><a href="mailto:info@chaloservices.com"><b>info@chaloservices.com</b></a></li>
-            </ul>
-        </div>
-        
-        <div class="flickr-photos" style="margin-top: 30px;">
-            <h3>We are on Flickr</h3>
-            <ul>
-                <li><a href="#"><img src="images/flickr.jpg" alt="" /></a></li>
-                <li><a href="#"><img src="images/flickr.jpg" alt="" /></a></li>
-                <li><a href="#"><img src="images/flickr.jpg" alt="" /></a></li>
-                <li><a href="#"><img src="images/flickr.jpg" alt="" /></a></li>
-                <li><a href="#"><img src="images/flickr.jpg" alt="" /></a></li>
-                <li><a href="#"><img src="images/flickr.jpg" alt="" /></a></li>
-            </ul>
-        </div>
-        
+      </div>
     </div>
-   
-   <div class="clear-both"></div> 
-    <hr />
-    
-    <div id="footer">
-    	<p>Copyright &copy; Chalo Services LLC. 2024. All Rights Reserved <a href="#">Terms &amp; Conditions</a>  |  <a href="#">Privacy Policy</a></p>
+    <div class="footer__bottom">
+      <p>© <span data-year>2024</span> Chalo Services LLC. All rights reserved.</p>
+      <p><a href="contact.html">Terms &amp; Conditions</a> &nbsp;·&nbsp; <a href="contact.html">Privacy Policy</a></p>
     </div>
+  </div>
+</footer>
 
-</div> 
-
+<script src="assets/js/main.js"></script>
 </body>
 </html>
